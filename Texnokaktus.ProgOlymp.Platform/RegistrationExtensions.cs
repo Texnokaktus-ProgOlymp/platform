@@ -5,10 +5,10 @@ namespace Texnokaktus.ProgOlymp.Platform;
 
 public static class RegistrationExtensions
 {
-    public static IHostApplicationBuilder UsePlatform(this WebApplicationBuilder builder, Action<IPlatformConfigurator>? comfigurationAction = null)
+    public static IHostApplicationBuilder UsePlatform(this WebApplicationBuilder builder, Action<IPlatformConfigurator>? configurationAction = null)
     {
         var platformConfigurator = new PlatformConfigurator();
-        comfigurationAction?.Invoke(platformConfigurator);
+        configurationAction?.Invoke(platformConfigurator);
         platformConfigurator.ApplyConfiguration(builder);
 
         return builder;
