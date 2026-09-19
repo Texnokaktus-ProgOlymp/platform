@@ -16,9 +16,9 @@
       <PackageReference Include="Serilog.Enrichers.ExceptionData" Version="1.0.0" />
       <PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
       <PackageReference Include="Serilog.Extensions.Hosting" Version="10.0.0" />
-      <PackageReference Include="Serilog.Settings.Configuration" Version="10.0.0" />
+      <PackageReference Include="Serilog.Settings.Configuration" Version="10.0.1" />
       <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
-      <PackageReference Include="Texnokaktus.ProgOlymp.OpenTelemetry" Version="2026.4.6.14" />
+      <PackageReference Include="Texnokaktus.ProgOlymp.OpenTelemetry" Version="2026.9.19.15" />
     </ItemGroup>
     
 </Project>
